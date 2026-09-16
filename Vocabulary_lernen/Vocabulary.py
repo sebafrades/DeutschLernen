@@ -1879,6 +1879,41 @@ Vocabulary_Nicos_Weg_A2_4 = {
     
 }    
 
+Vocabulary_Nicos_Weg_A2_7 = {
+
+    "Immer und überall": [
+        Word("App", "die App,-s", example="Ich habe eine neue App auf meinem Smartphone installiert."),
+        Word("Fault,broken", "defekt"),
+        Word("To download sth", "etwas down|loaden", example="Ich habe die neue Version der App downgeloadet"),
+        Word("To reach sb, to get in touch with sb", "jemanden erreichen", example="Ich konnte ihn gestern nicht erreichen."),
+        Word("Freedom", "die Freiheit,-en"),
+        Word("To google sb/sth", "etwas/jemanden googeln", example="Ich habe den Namen gegoogelt, um mehr Informationen zu finden."),
+        Word("To download sth", "etwas herunter|laden"),
+        Word("Camera", "die Kamera,-s"),
+        Word("Headphones", "der Kopfhörer,-"),
+        Word("Passion", "die Leidenschaft,-en"),
+        Word("To like (only on social media)", "etwas liken"),
+        Word("To send an email (to sb)", "(jemandem etwas) mailen"),
+        Word("To use sth", "etwas nutzen"),
+        Word("Offline", "offline"),
+        Word("Online", "online"),
+        Word("Flat, drained, dull", "platt"),
+        Word("To post sth", "etwas posten"),
+        Word("Tire", "der Reifen,-"),
+        Word("To skype", "skypen"),
+        Word("Smartphone", "das Smartphone,-s"),
+        Word("Social network", "das soziale Netzwerk, die sozialen Netzwerke"),
+        Word("To surf", "surfen"),
+        Word("Tablet computer", "das Tablet,-s"),
+        Word("To share", "etwas teilen"),
+        Word("Everywhere, all over", "überall"),
+        Word("Advertising agency", "die Werbagentur,-en"),
+        Word("Newspaper", "die Zeitung,-en"),
+    ],
+
+    
+}
+
 Grammatik_Aktiv = {
 
     "Reflexive (und reziproke) Verben": [
@@ -1921,14 +1956,14 @@ Grammatik_Aktiv = {
     ],
 
     "Trennbare und untrennbare Verben": [
-        Word("To buy something", "ein|kaufen"),
-        Word("To call somebody", "an|rufen"),
-        Word("To turn off (electronics), to arrange/agree on (an appointment)", "aus|machen"),
-        Word("To invite somebody", "ein|laden"),
-        Word("To tidy up, to clean up", "auf|räumen"),
-        Word("To enter, get in, board", "ein|steigen"),
-        Word("To get out, exit", "aus|steigen"),
-        Word("To start/turn on (engines, cars)", "an|springen"),
+        Word("To buy something", "ein|kaufen", example="Ich gehe heute Nachmittag im Supermarkt einkaufen."),
+        Word("To call somebody", "an|rufen", example="Ich rufe meinen Freund an."),
+        Word("To turn off (electronics), to arrange/agree on (an appointment)", "aus|machen", example="Ich mache den Fernseher aus."),
+        Word("To invite somebody", "ein|laden", example="Ich lade meine Freunde zu einem Picknick ein."),
+        Word("To tidy up, to clean up", "auf|räumen", example="Ich räume mein Zimmer auf."),
+        Word("To enter, get in, board", "ein|steigen", example="Ich steige in den Bus ein."),
+        Word("To get out, exit", "aus|steigen", example="Ich steige aus dem Bus aus."),
+        Word("To start/turn on (engines, cars)", "an|springen", example="Der Motor springt an."),
 
         # --- trennbar ---
         Word("To depart", "ab|fahren", example="Der Zug fährt um acht Uhr ab."),

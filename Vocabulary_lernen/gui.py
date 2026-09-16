@@ -21,6 +21,7 @@ from Vocabulary import (
     Vocabulary_Nicos_Weg_A2_2,
     Vocabulary_Nicos_Weg_A2_3,
     Vocabulary_Nicos_Weg_A2_4,
+    Vocabulary_Nicos_Weg_A2_7,
     Grammatik_Aktiv,
 )
 
@@ -49,6 +50,7 @@ class MainWindow(QMainWindow):
             "Chapter 2": Vocabulary_Nicos_Weg_A2_2,
             "Chapter 3": Vocabulary_Nicos_Weg_A2_3,
             "Chapter 4": Vocabulary_Nicos_Weg_A2_4,
+            "Chapter 7": Vocabulary_Nicos_Weg_A2_7,
         }
 
         # Grammatik Aktiv: {topic_name: [Word, ...]} -- flat, no subchapters
